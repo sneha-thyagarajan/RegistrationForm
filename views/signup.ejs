@@ -8,20 +8,22 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Poppins:wght@200;300;400;600&display=swap" rel="stylesheet">
     <title>Register</title>
+
 </head>
-<body>
+<body onload="form.reset()">
+
     <section class="main">
         <div class="container">
             <div class="col1">
                 <h1>Sign Up</h1>
 
-                <form action="/signup" method="POST">
+                <form action="/signup" method="POST" autocomplete='off' id="form">
                     <div class="entry"> <img src="images/mail.png" alt="login">
-                         <input type="text" name="username" id="username" placeholder="E-mail ID">       
+                         <input type="text" name="username" id="username" placeholder="E-mail ID" autocomplete='off'>       
                     </div>
                    
                    <div class ="entry">  <img src="images/lock.png" alt="login">
-                    <input type="password" name="password" id="password" placeholder="Password">     
+                    <input type="password" name="password" id="password" placeholder="Password" autocomplete='off'>     
                   </div>                   
                     <input type="submit" value="Register" class="registerbtn">
                 </form>
@@ -31,7 +33,7 @@
             <div class="col2">
                 <img src="images/redlaptop.png" alt="login">
                 <div class="text">   
-                    <p>Already have an account? <a href="/login">Login</a></p>            
+                    <p>Already have an account? <a href="/signin">Login</a></p>            
              </div>
             </div>
         </div>

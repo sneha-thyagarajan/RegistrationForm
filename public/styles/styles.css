@@ -144,3 +144,9 @@ form{
     }
     
 }
+.error{
+    color:red;
+    font-family: 'Poppins', serif;
+    margin-top:0;
+    text-align: center;
+}
