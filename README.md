@@ -25,7 +25,7 @@ Before you begin, ensure you have met the following requirements:
 1. Navigate to the project directory:
 
    ```bash
-   cd weather-website
+   cd registration-form
    ```
 
 2. Install the project dependencies:
